@@ -42,5 +42,5 @@ None.
 - 💲 Things that can be donated
 - Discord Nitro Basic
 - Discord Nitro
-- Robux
+- Robux (5~900000)
 - Thank you message
