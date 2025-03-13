@@ -4,7 +4,7 @@
 > The only official places to download RoPirate are this GitHub repository and [soon.soon](). Any other websites offering downloads or claiming to be us are not controlled by us
 
 
-![img.png](img/img.png)
+![img.png](README/img.png)
 RoPirateはあなたのRoblox人生をより良くするツールです！
 
 # 📝 License
