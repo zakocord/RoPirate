@@ -58,38 +58,24 @@ def display_server_info(filtered_servers, place):
         print(f"{Fore.GREEN}[+] {Fore.RESET}succeeded")
         print(f"PLAYER: {Fore.BLUE}{server.get('playing')}/{server.get('maxPlayers')}")
         print(f"Connect URL: {join_url}")
-        os.system("pause")
 
 def main():
-    print(f"""{Fore.RED}
-             ........                                                                               
-            .,,',''''.                                                               
-           .,,,,;,,,;,....                                                         
+    print (f""" {Fore.RED}
+                      /$$$$$$$            /$$$$$$$  /$$                      /$$              
+                     | $$__  $$          | $$__  $$|__/                     | $$              
+                     | $$  \ $$  /$$$$$$ | $$  \ $$ /$$  /$$$$$$  /$$$$$$  /$$$$$$    /$$$$$$ 
+                     | $$$$$$$/ /$$__  $$| $$$$$$$/| $$ /$$__  $$|____  $$|_  $$_/   /$$__  $$
+                     | $$__  $$| $$  \ $$| $$____/ | $$| $$  \__/ /$$$$$$$  | $$    | $$$$$$$$
+                     | $$  \ $$| $$  | $$| $$      | $$| $$      /$$__  $$  | $$ /$$| $$_____/
+                     | $$  | $$|  $$$$$$/| $$      | $$| $$     |  $$$$$$$  |  $$$$/|  $$$$$$$
+                     |__/  |__/ \______/ |__/      |__/|__/      \_______/   \___/   \_______/
 
-          .;;;;;;;;;;;;,...                                               
-          .,:::;;::;:::. .'                              
-     ...'..,::::::::::;..,'..               
-
-   .;ccccc::cccccccccc:;;:,;'                         
-   'clllcllllllllllllllllllc'                                     
-  'clllllccllllllllllllc:lll,                                                  
-
- ,looool:.'looooooooooo;.;olc;.                                                                     
-'ldoodc.  'odoodoodooodlcooodl.                                                                     
-lddddo'   'odddddddddddddddddl.                                                                     
-lxxo,.    'dxxxxxxxxxxxdxxxxxc                                                                      
-cxxxc.    'xkxxxd;.'c;.'lxxxko'                                                                     
-.;lc.     ,xkkkkd.  ;;  .oddddxo,                                                                   
-          ,kOOOOx. .do.  .c;,lko'                                                                   
-          ,kOOO0x'  c:   .lxxOk'                                                                    
-          ,k0000k'  .     ;k00k'                                                                    
-          ,OKKKKO'         .,,.                                                                     
-          .:cccc;.                                                                                   
 {Fore.RESET}""")
 
-    place = input(f"{Fore.GREEN}@[+] {Fore.RESET}- PLACE ID~{Fore.BLACK}   ")
+    place = input(f"@{Fore.YELLOW}[INPUT] {Fore.RESET}- PLACE ID~{Fore.BLACK}   ")
     if not place.isdigit():
-        logger.error("Invaild Place ID")
+        print(f"{Fore.RED} [-] Invaild Place ID")
+        logging.error("[-] - invaild Place id")
         exit(1)
     place = int(place)
 
