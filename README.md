@@ -14,7 +14,7 @@ RoPirate is governed by the MIT License.
 
 #### Is this a virus?
 
-This is not a virus. The source code is available for you to check.
+This is not a virus. 
 
 #### Error occurs.
 
@@ -26,7 +26,8 @@ Yes.
 
 ### Can I make a video?
 
-It's totally fine!
+It's totally fine
+
 ## 📨 Support
 
 Please contact me at my GitHub email address or on Discord.
