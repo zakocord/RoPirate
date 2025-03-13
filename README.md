@@ -33,4 +33,4 @@ Please contact me at my GitHub email address or on Discord.
 
 ## 💸 Who supported this project
 
-ぼくわたチャンネル / I'm motivated by your videos :D
+None.
