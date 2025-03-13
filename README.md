@@ -1,9 +1,11 @@
 
 # RoPirate
+> [!CAUTION]
+> The only official places to download RoPirate are this GitHub repository and [soon.soon](). Any other websites offering downloads or claiming to be us are not controlled by us.
 
-RoPirate makes your AFK Farming, Farming, and Video Shooting better ✯~
 
 ![img.png](img/img.png)
+RoPirate makes your AFK Farming, Farming, and Video Shooting better ✯~
 
 # 📝 License
 RoPirate is governed by the MIT License.
