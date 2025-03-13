@@ -14,6 +14,8 @@ def load_config(filename="data/config.json"):
 
 config = load_config()
 LIMIT = config["limit"]
+min_players = config["server_settings"]["min_players"]
+max_players = config["server_settings"]["max_players"]
 
 print (f"""{Fore.RED}
              ........                                                                               
@@ -57,8 +59,6 @@ if response.status_code == 200:
 """)
 
     data = response.json()
-    min_players = config["server_settings"]["min_players"]
-    max_players = config["server_settings"]["max_players"]
 
     filtered_servers = [
         server for server in data.get("data", [])
