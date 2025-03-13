@@ -36,3 +36,11 @@ Please contact me at my GitHub email address or on Discord.
 ## 💸 Who supported this project
 
 None.
+
+## 💰️ Donations
+
+- 💲 Things that can be donated
+- Discord Nitro Basic
+- Discord Nitro
+- Robux
+- Thank you message
