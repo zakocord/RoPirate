@@ -6,7 +6,7 @@ import colorama
 import pystyle
 from pystyle import *
 from colorama import Fore
-from urllib.parse import urlparse  # ✅ 追加
+from urllib.parse import urlparse 
 
 def load_config(filename="data/config.json"):
     with open(filename, "r", encoding="utf-8") as file:
