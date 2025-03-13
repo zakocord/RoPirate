@@ -29,10 +29,6 @@ This is not a virus. The source code is available for you to check.
 
 Please post to issues.
 
-#### Error occurs.
-
-Please post to issues.
-
 ### Can I redistribute it?
 
 Yes.
