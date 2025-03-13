@@ -2,7 +2,7 @@
 > [!］
 > 唯一可以下載 RoPirate 的官方網站是 GitHub 套件庫和 [soon.soon]()。任何其他提供下載或聲稱是我們的網站都不受我們控制。
 
-[🗾 日本版説明書](README/README_JP.md)
+[🗾 日本版説明書](README/README_JP.md) [🗽English Explanation](README.md) [🟢 Brazil](README/README_BRAZIL.md) 
 
 ![img.png](img/img.png)
 RoPirate 讓您的 AFK 種田、耕作和視訊拍攝更出色 ✯~
