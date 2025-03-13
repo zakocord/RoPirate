@@ -10,17 +10,6 @@ RoPirate makes your AFK Farming, Farming, and Video Shooting better ✯~
 # 📝 License
 RoPirate is governed by the MIT License.
 
-
-## 🎉Used By
-
-This project is used by the following companies:
-
-- Python/Python
-- billythegoat356/pystyle
-- psf/requests
-- manju_summoner/YMM4
-
-
 ## ❓️ FAQ
 
 #### Is this a virus?
