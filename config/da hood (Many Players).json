@@ -1,0 +1,7 @@
+{
+    "server_settings": {
+        "min_players": 30,
+        "max_players": 39
+    },
+    "limit": 100,
+}
