@@ -14,20 +14,13 @@ RoPirate is governed by the MIT License.
 ## ❓️ FAQ
 
 #### Is this a virus?
-
 This is not a virus. 
 
 #### Error occurs.
-
 Please post to issues.
 
 ### Can I redistribute it?
-
 Yes.
-
-### Can I make a video?
-
-It's totally fine
 
 ## 📨 Support
 
