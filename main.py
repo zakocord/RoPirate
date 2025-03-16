@@ -29,7 +29,7 @@ def get_ip_from_hostname(hostname):
         logger.error(f"{hostname} Grab Error")
         exit(1)
 
-def get_filtered_servers(place, limit, low_, max_):
+def server_filter(place, limit, low_, max_):
     API = f"https://games.roblox.com/v1/games/{place}/servers/Public?limit={limit}"
     try:
         response = requests.get(API)
@@ -46,7 +46,7 @@ def get_filtered_servers(place, limit, low_, max_):
         if low_ <= server.get("playing") <= max_
     ]
 
-def display_server_info(filtered_servers, place):
+def display(filtered_servers, place):
     if not filtered_servers:
         logger.warning("No servers matching your criteria were found")
         return
@@ -90,9 +90,12 @@ def main():
     ip_address = get_ip_from_hostname(hostname)
 
     logger.info(f"Connected to {hostname} : {ip_address}")
+    print (f"""{Fore.YELLOW} [INFO]
+           Connect: {hostname} : {ip_address} {Fore.RESET}
+           """)
 
-    filtered_servers = get_filtered_servers(place, LIMIT, low_, max_)
-    display_server_info(filtered_servers, place)
+    filtered_servers = server_filter(place, LIMIT, low_, max_)
+    display(filtered_servers, place)
 
 if __name__ == "__main__":
     main()
