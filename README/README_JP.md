@@ -32,4 +32,4 @@ RoPirateはMIT LICENSEによって守られています。
 
 私のGithubにあるメールか、Discordまでご連絡ください。
 
-(俺は日本人だがわざと変な日本語にしてるよ！クレームはissueまで)
+
