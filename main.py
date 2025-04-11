@@ -7,6 +7,7 @@ import logging
 from pystyle import *
 from colorama import Fore
 from urllib.parse import urlparse
+#d
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger()
