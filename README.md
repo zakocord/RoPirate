@@ -6,7 +6,7 @@
 [🗾 日本版説明書](README/README_JP.md)      [🗽English Explanation](README.md)      [🟢 Brazil](README/README_BRAZIL.md)      [🇨🇳 China](README/README_CH.md) 
 
 ![img.png](img/img.png)
-RoPirate makes your AFK Farming, Farming, and Video Shooting better ✯~
+RoPirate makes your AFK Farming, Farming, and Video Shooting better 
 
 # 📝 License
 RoPirate is governed by the MIT License.
